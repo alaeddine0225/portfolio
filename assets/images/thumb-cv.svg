@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">CV</title>
+  <desc id="desc">Illustration pour la page CV</desc>
+  <rect width="900" height="520" fill="#10131a"/>
+  <rect x="235" y="65" width="430" height="390" rx="18" fill="#f5f2ea"/>
+  <path d="M565 65 L665 165 L565 165 Z" fill="#d9d2c3"/>
+  <rect x="290" y="140" width="120" height="120" rx="60" fill="#d89c3a"/>
+  <path d="M278 300 H615" stroke="#1b2030" stroke-width="18" stroke-linecap="round"/>
+  <path d="M278 345 H585" stroke="#56657d" stroke-width="14" stroke-linecap="round"/>
+  <path d="M278 388 H520" stroke="#56657d" stroke-width="14" stroke-linecap="round"/>
+  <text x="540" y="240" text-anchor="middle" fill="#1b2030" font-family="Georgia, serif" font-size="86" font-weight="700">CV</text>
+  <circle cx="175" cy="120" r="70" fill="#d89c3a" opacity=".15"/>
+  <circle cx="735" cy="400" r="100" fill="#26344d" opacity=".65"/>
+</svg>

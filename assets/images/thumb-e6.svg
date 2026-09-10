@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">E6</title>
+  <desc id="desc">Illustration pour les missions E6</desc>
+  <rect width="900" height="520" fill="#121722"/>
+  <path d="M450 88 L710 218 V396 H190 V218 Z" fill="#1b2030" stroke="#d89c3a" stroke-opacity=".38" stroke-width="5"/>
+  <rect x="260" y="230" width="380" height="120" rx="18" fill="#26344d"/>
+  <rect x="305" y="260" width="90" height="62" rx="9" fill="#d89c3a"/>
+  <rect x="430" y="260" width="90" height="62" rx="9" fill="#5e6e89"/>
+  <rect x="555" y="260" width="90" height="62" rx="9" fill="#f5f2ea"/>
+  <path d="M320 375 H580" stroke="#f5f2ea" stroke-width="14" stroke-linecap="round"/>
+  <path d="M360 405 H540" stroke="#c4b9a6" stroke-width="12" stroke-linecap="round"/>
+  <text x="450" y="170" text-anchor="middle" fill="#d89c3a" font-family="Georgia, serif" font-size="78" font-weight="700">E6</text>
+  <text x="450" y="475" text-anchor="middle" fill="#f5f2ea" font-family="Georgia, serif" font-size="38" font-weight="700">Missions</text>
+</svg>

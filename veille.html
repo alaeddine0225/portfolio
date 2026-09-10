@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille - Ansible Linux & Windows</title>
+    <link rel="stylesheet" href="smr.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Veille technologique</h1>
+        <p>Utilisation d'Ansible avec Linux et Windows</p>
+    </header>
+
+    <main class="cv">
+        <section class="cv-card">
+            <h2>Sujet</h2>
+            <p>
+                Ma veille porte sur l'utilisation d'Ansible pour automatiser l'administration
+                de machines Linux et Windows dans un parc informatique.
+            </p>
+            <p class="mission-meta">Problématique : comment administrer plusieurs systèmes avec un seul outil d'automatisation ?</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Qu'est-ce qu'Ansible ?</h2>
+            <p>
+                Ansible est un outil open source d'automatisation informatique. Il permet
+                d'installer des logiciels, configurer des serveurs, deployer des applications
+                et executer des taches d'administration sur plusieurs machines.
+            </p>
+            <p>
+                Il fonctionne avec des fichiers appeles <strong>playbooks</strong>, ecrits en YAML.
+                Ces playbooks decrivent les actions a effectuer. Ansible applique ensuite ces
+                actions sur les machines indiquees dans un <strong>inventaire</strong>.
+            </p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Fonctionnement general</h2>
+            <ul>
+                <li>Une machine de controle lance les commandes Ansible.</li>
+                <li>Un inventaire liste les serveurs Linux et Windows a administrer.</li>
+                <li>Les playbooks decrivent les actions a realiser.</li>
+                <li>Les modules Ansible executent les actions : installation, copie de fichiers, services, utilisateurs, mises a jour.</li>
+                <li>Ansible est agentless : il n'est pas necessaire d'installer un agent permanent sur chaque machine.</li>
+            </ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Utilisation avec Linux</h2>
+            <p>
+                Sur Linux, Ansible utilise principalement SSH. C'est simple car SSH est deja
+                present sur la plupart des serveurs Linux.
+            </p>
+            <ul>
+                <li>Connexion avec une cle SSH ou un mot de passe.</li>
+                <li>Utilisation de <code>become</code> pour executer certaines taches avec les droits administrateur.</li>
+                <li>Modules courants : <code>apt</code>, <code>dnf</code>, <code>service</code>, <code>copy</code>, <code>template</code>, <code>user</code>.</li>
+                <li>Cas d'usage : installer Apache, configurer un firewall, creer un utilisateur, deployer un fichier de configuration.</li>
+            </ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Utilisation avec Windows</h2>
+            <p>
+                Sur Windows, Ansible utilise surtout WinRM, un protocole de gestion a distance
+                integre a Windows. Ansible peut aussi utiliser OpenSSH avec Windows, mais il faut
+                respecter les versions supportees.
+            </p>
+            <ul>
+                <li>Connexion WinRM en HTTP ou HTTPS, avec une configuration prealable de la machine Windows.</li>
+                <li>Modules Windows : <code>win_updates</code>, <code>win_service</code>, <code>win_user</code>, <code>win_copy</code>, <code>win_package</code>.</li>
+                <li>Cas d'usage : installer un logiciel, gerer un service Windows, creer un utilisateur, appliquer des mises a jour.</li>
+                <li>Bonne pratique : privilegier WinRM en HTTPS ou une authentification adaptee au domaine.</li>
+            </ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Exemple d'inventaire</h2>
+            <pre class="code-block"><code>[linux]
+srv-web ansible_host=192.168.1.10 ansible_user=admin
+
+[windows]
+pc-support ansible_host=192.168.1.20
+
+[windows:vars]
+ansible_connection=winrm
+ansible_user=Administrateur
+ansible_password=mot_de_passe_a_chiffrer
+ansible_winrm_transport=ntlm</code></pre>
+        </section>
+
+        <section class="cv-card">
+            <h2>Exemple de playbook</h2>
+            <pre class="code-block"><code>---
+- name: Installer Apache sur Linux
+  hosts: linux
+  become: true
+  tasks:
+    - name: Installer apache2
+      apt:
+        name: apache2
+        state: present
+
+- name: Verifier un service Windows
+  hosts: windows
+  tasks:
+    - name: Demarrer le service Spooler
+      win_service:
+        name: Spooler
+        state: started</code></pre>
+        </section>
+
+        <section class="cv-card">
+            <h2>Interet pour une entreprise</h2>
+            <ul>
+                <li>Gagner du temps sur les taches repetitives.</li>
+                <li>Limiter les erreurs humaines pendant les installations et configurations.</li>
+                <li>Gerer Linux et Windows dans un meme outil.</li>
+                <li>Documenter les actions grace aux playbooks.</li>
+                <li>Rejouer une configuration identique sur plusieurs machines.</li>
+            </ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Points de vigilance</h2>
+            <ul>
+                <li>Ne jamais stocker les mots de passe en clair : utiliser Ansible Vault.</li>
+                <li>Tester les playbooks sur un environnement de test avant la production.</li>
+                <li>Verifier les droits administrateur sur Linux et Windows.</li>
+                <li>Bien separer les groupes Linux et Windows dans l'inventaire.</li>
+                <li>Sur Windows, verifier la configuration WinRM, le firewall et le mode d'authentification.</li>
+            </ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Actualite de la veille</h2>
+            <p>
+                Au 7 juillet 2026, la communaute Ansible publie regulierement des versions.
+                Ansible 14.1.0 a ete annonce en juin 2026 et depend d'ansible-core 2.21.1.
+                Cela montre que le projet reste actif et maintenu.
+            </p>
+            <p>
+                La documentation officielle met aussi en avant deux possibilites pour Windows :
+                WinRM, qui reste la solution courante, et OpenSSH lorsque l'environnement Windows
+                respecte les conditions de support.
+            </p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Conclusion</h2>
+            <p>
+                Ansible est interessant pour administrer un parc mixte Linux et Windows.
+                Linux est gere facilement avec SSH, tandis que Windows demande une configuration
+                WinRM ou SSH plus precise. Pour une entreprise, Ansible permet de standardiser les
+                configurations, gagner du temps et fiabiliser les deploiements.
+            </p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Sources consultees</h2>
+            <ul class="source-list">
+                <li><a href="https://docs.ansible.com/projects/ansible/latest/inventory_guide/intro_inventory.html" target="_blank" rel="noopener">Documentation Ansible - Inventaire</a></li>
+                <li><a href="https://docs.ansible.com/projects/ansible/latest/os_guide/windows_winrm.html" target="_blank" rel="noopener">Documentation Ansible - Windows WinRM</a></li>
+                <li><a href="https://docs.ansible.com/projects/ansible/latest/os_guide/windows_ssh.html" target="_blank" rel="noopener">Documentation Ansible - Windows SSH</a></li>
+                <li><a href="https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html" target="_blank" rel="noopener">Documentation Ansible - Releases et maintenance</a></li>
+                <li><a href="https://forum.ansible.com/t/release-announcement-ansible-community-package-14-1-0/45945" target="_blank" rel="noopener">Annonce Ansible 14.1.0 - Juin 2026</a></li>
+                <li><a href="https://forum.ansible.com/t/new-release-ansible-core-v2-21-1/45939" target="_blank" rel="noopener">Annonce ansible-core 2.21.1 - Juin 2026</a></li>
+            </ul>
+        </section>
+
+        <a class="btn" href="index.html">Retour au sommaire</a>
+    </main>
+</body>
+</html>

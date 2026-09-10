@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 2 : Installation et configuration d&#x27;un environnement Odoo 17 local</title>
+    <link rel="stylesheet" href="../smr.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Mission 2 : Installation et configuration d&#x27;un environnement Odoo 17 local</h1>
+        <p>Du 01/12/2025 au 08/12/2025</p>
+    </header>
+
+    <main class="cv mission-page">
+        <section class="cv-card">
+            <h2>Enonce</h2>
+            <p>Preparation d&#x27;un environnement de developpement local avec Docker, PostgreSQL, les addons Odoo et les fichiers de configuration.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Preuves</h2>
+            <div class="mission-proof-images">
+                <img src="../assets/preuves/mission2_env_odoo17_postgres.png" alt="Configuration Docker Odoo 17 et PostgreSQL">
+            </div>
+        </section>
+
+        <a class="btn" href="../e6.php">Retour aux missions</a>
+    </main>
+</body>
+</html>

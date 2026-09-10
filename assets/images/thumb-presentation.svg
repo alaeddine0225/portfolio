@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Presentation</title>
+  <desc id="desc">Illustration pour la presentation personnelle</desc>
+  <rect width="900" height="520" fill="#141824"/>
+  <path d="M0 390 C160 320 260 440 420 365 C590 285 680 330 900 245 L900 520 L0 520 Z" fill="#26344d"/>
+  <circle cx="675" cy="105" r="95" fill="#d89c3a" opacity=".16"/>
+  <rect x="145" y="95" width="610" height="330" rx="26" fill="#1b2030" stroke="#d89c3a" stroke-opacity=".38" stroke-width="5"/>
+  <circle cx="340" cy="220" r="58" fill="#d89c3a"/>
+  <path d="M230 360 C250 295 430 295 450 360" fill="#f5f2ea" opacity=".92"/>
+  <path d="M515 178 H670" stroke="#f5f2ea" stroke-width="20" stroke-linecap="round"/>
+  <path d="M515 238 H690" stroke="#c4b9a6" stroke-width="16" stroke-linecap="round"/>
+  <path d="M515 292 H640" stroke="#c4b9a6" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="455" text-anchor="middle" fill="#f5f2ea" font-family="Georgia, serif" font-size="42" font-weight="700">Presentation</text>
+</svg>
