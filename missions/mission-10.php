@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 10 : Migration des documents fabricant avec n8n</title>
+    <link rel="stylesheet" href="../smr.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Mission 10 : Migration des documents fabricant avec n8n</h1>
+        <p>Le 11/08/2026</p>
+    </header>
+
+    <main class="cv mission-page">
+        <section class="cv-card">
+            <h2>Enonce</h2>
+            <p>
+                Mise en place d'un workflow n8n pour migrer la documentation fabricant des produits
+                depuis Odoo 12 vers Odoo 19. La migration utilise un systeme de lots, de suivi d'etat,
+                de mapping et de reprise afin d'eviter les doublons et de pouvoir relancer le traitement.
+            </p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Preuves</h2>
+            <div class="mission-proof-images">
+                <img src="../assets/preuves/mission10_migration_documents_fabricant.svg" alt="Migration des documents fabricant avec n8n">
+            </div>
+        </section>
+
+        <a class="btn" href="../e6.php">Retour aux missions</a>
+    </main>
+</body>
+</html>

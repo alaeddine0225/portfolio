@@ -67,6 +67,18 @@
                 <span>Du 24/04/2026 au 01/05/2026</span>
                 <em>Voir l'enonce et les preuves</em>
             </a>
+
+            <a class="mission-link" href="missions/mission-10.php">
+                <strong>Mission 10 : Migration des documents fabricant avec n8n</strong>
+                <span>Le 11/08/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-11.php">
+                <strong>Mission 11 : Modules Odoo 19 Detailed Chatter et deduction des acomptes</strong>
+                <span>Le 13/08/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
         </section>
 
         <a class="btn" href="sommaire.php">Retour au sommaire</a>

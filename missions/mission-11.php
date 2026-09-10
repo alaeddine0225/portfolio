@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 11 : Modules Odoo 19 Detailed Chatter et deduction des acomptes</title>
+    <link rel="stylesheet" href="../smr.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Mission 11 : Modules Odoo 19 Detailed Chatter et deduction des acomptes</h1>
+        <p>Le 13/08/2026</p>
+    </header>
+
+    <main class="cv mission-page">
+        <section class="cv-card">
+            <h2>Enonce</h2>
+            <p>
+                Developpement et adaptation de modules Odoo 19 : un module d'historique detaille
+                pour suivre les modifications sur les devis, factures et produits, ainsi qu'un module
+                pour gerer l'affichage de la deduction des acomptes lors de la creation d'une facture.
+            </p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Preuves</h2>
+            <div class="mission-proof-images">
+                <img src="../assets/preuves/mission11_modules_ete_odoo19.svg" alt="Modules Odoo 19 Detailed Chatter et deduction des acomptes">
+            </div>
+        </section>
+
+        <a class="btn" href="../e6.php">Retour aux missions</a>
+    </main>
+</body>
+</html>
