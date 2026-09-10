@@ -25,7 +25,34 @@
         <section class="cv-card">
             <h2>Preuves</h2>
             <div class="mission-proof-images">
-                <img src="../assets/preuves/mission10_migration_documents_fabricant.svg" alt="Migration des documents fabricant avec n8n">
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission10_migration_documents_fabricant.svg" alt="Schema de la migration des documents fabricant avec n8n">
+                    <figcaption>Resume de la migration : workflow n8n, mapping, reprise et resultat du test local.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission10_code_champ_document.svg" alt="Code du champ Document d'utilisation dans Odoo 19">
+                    <figcaption>Code Odoo : ajout du champ PDF Document d'utilisation sur le produit.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission10_code_sync_document.svg" alt="Code de synchronisation du document produit">
+                    <figcaption>Code Odoo : synchronisation du PDF avec les documents standards du produit.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission10_code_vue_document.svg" alt="Code XML de la vue Document d'utilisation">
+                    <figcaption>Code XML : affichage du champ Document d'utilisation dans la fiche produit.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission10_odoo_app_product_manufacturer.png" alt="Module Fabricant et documents produit dans Odoo 19">
+                    <figcaption>Apercu Odoo : module Fabricant et documents produit disponible dans Apps.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission10_odoo_liste_fabricant_redacted.png" alt="Liste des produits Odoo avec colonne Fabricant">
+                    <figcaption>Apercu Odoo : colonne Fabricant visible dans la liste des produits, avec donnees sensibles masquees.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission10_odoo_form_document_fabricant_redacted.png" alt="Fiche produit Odoo avec document fabricant">
+                    <figcaption>Apercu Odoo : champ Document d'utilisation sur la fiche produit, avec informations masquees.</figcaption>
+                </figure>
             </div>
         </section>
 
