@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 12 : Réorganisation et rebrassage d'une infrastructure réseau</title>
+    <link rel="stylesheet" href="../smr.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Mission 12 : Réorganisation et rebrassage d'une infrastructure réseau</h1>
+        <p>Intervention sur site — BTS SIO SISR</p>
+    </header>
+
+    <main class="cv mission-page">
+        <section class="cv-card">
+            <h2>Contexte</h2>
+            <p>Lors d'une intervention sur site, j'ai participé à la réorganisation de baies informatiques et au rebrassage des connexions réseau. Le travail concernait les switchs, les panneaux de brassage RJ45 et les bornes Wi-Fi.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Objectifs</h2>
+            <p>Rendre le câblage plus lisible et faciliter les prochaines interventions en identifiant clairement les équipements, les ports et les liaisons.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Tâches réalisées</h2>
+            <ul>
+                <li>Repérage des switchs et des ports utilisés avant de débrancher les cordons.</li>
+                <li>Débrassage puis rebrassage des liaisons RJ45 en suivant le repérage des ports.</li>
+                <li>Réorganisation des baies informatiques et rangement des cordons de brassage.</li>
+                <li>Étiquetage des liaisons pour faciliter leur identification.</li>
+                <li>Intervention sur les bornes Wi-Fi présentes sur le site.</li>
+            </ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Compétences développées</h2>
+            <ul>
+                <li>Identifier les composants d'une infrastructure réseau physique et le rôle des ports de brassage.</li>
+                <li>Intervenir sur le câblage d'une baie en s'appuyant sur un repérage préalable.</li>
+                <li>Documenter les liaisons par un étiquetage utile à la maintenance.</li>
+            </ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Bilan personnel</h2>
+            <p>Cette intervention m'a montré l'intérêt de repérer les ports avant de débrancher un cordon. Un câblage bien rangé et étiqueté ne sert pas seulement à rendre la baie plus propre : il aide à retrouver une liaison lors d'une panne ou d'une modification.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Preuves de l'intervention</h2>
+            <div class="mission-proof-images">
+                <figure class="proof-item"><figcaption>Photo à ajouter : baie avant réorganisation et repérage des ports.</figcaption></figure>
+                <figure class="proof-item"><figcaption>Photo à ajouter : baie après rebrassage et étiquetage.</figcaption></figure>
+                <figure class="proof-item"><figcaption>Photo à ajouter : intervention sur une borne Wi-Fi.</figcaption></figure>
+            </div>
+        </section>
+
+        <a class="btn" href="../e6.php">Retour aux missions</a>
+    </main>
+</body>
+</html>

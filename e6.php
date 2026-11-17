@@ -79,6 +79,11 @@
                 <span>Le 13/08/2026</span>
                 <em>Voir l'enonce et les preuves</em>
             </a>
+            <a class="mission-link" href="missions/mission-12.php">
+                <strong>Mission 12 : Réorganisation et rebrassage d'une infrastructure réseau</strong>
+                <span>Intervention sur site</span>
+                <em>Voir la mission et ses preuves</em>
+            </a>
         </section>
 
         <a class="btn" href="sommaire.php">Retour au sommaire</a>
