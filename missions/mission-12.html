@@ -51,9 +51,26 @@
         <section class="cv-card">
             <h2>Preuves de l'intervention</h2>
             <div class="mission-proof-images">
-                <figure class="proof-item"><figcaption>Photo à ajouter : baie avant réorganisation et repérage des ports.</figcaption></figure>
-                <figure class="proof-item"><figcaption>Photo à ajouter : baie après rebrassage et étiquetage.</figcaption></figure>
-                <figure class="proof-item"><figcaption>Photo à ajouter : intervention sur une borne Wi-Fi.</figcaption></figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission12_baie_3512.jpg" alt="Vue d’ensemble des baies avant réorganisation." loading="lazy">
+                    <figcaption>Vue d’ensemble des baies avant réorganisation.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission12_baie_3517.jpg" alt="Détail des cordons RJ45 avant rebrassage." loading="lazy">
+                    <figcaption>Détail des cordons RJ45 avant rebrassage.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission12_baie_3516.jpg" alt="Cheminement des câbles à l’arrière de la baie." loading="lazy">
+                    <figcaption>Cheminement des câbles à l’arrière de la baie.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission12_baie_3515.jpg" alt="Faisceaux de câbles regroupés dans la baie." loading="lazy">
+                    <figcaption>Faisceaux de câbles regroupés dans la baie.</figcaption>
+                </figure>
+                <figure class="proof-item">
+                    <img src="../assets/preuves/mission12_baie_3514.jpg" alt="Panneaux de brassage et cordons RJ45 après réorganisation." loading="lazy">
+                    <figcaption>Panneaux de brassage et cordons RJ45 après réorganisation.</figcaption>
+                </figure>
             </div>
         </section>
 
