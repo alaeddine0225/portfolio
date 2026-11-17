@@ -42,10 +42,6 @@
                     <figcaption>Code XML : affichage du champ Document d'utilisation dans la fiche produit.</figcaption>
                 </figure>
                 <figure class="proof-item">
-                    <img src="../assets/preuves/mission10_odoo_app_product_manufacturer.png" alt="Module Fabricant et documents produit dans Odoo 19">
-                    <figcaption>Apercu Odoo : module Fabricant et documents produit disponible dans Apps.</figcaption>
-                </figure>
-                <figure class="proof-item">
                     <img src="../assets/preuves/mission10_odoo_liste_fabricant_redacted.png" alt="Liste des produits Odoo avec colonne Fabricant">
                     <figcaption>Apercu Odoo : colonne Fabricant visible dans la liste des produits, avec donnees sensibles masquees.</figcaption>
                 </figure>

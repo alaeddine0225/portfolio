@@ -42,14 +42,6 @@
                     <figcaption>Code XML : affichage conditionnel de la case Acompte deduit.</figcaption>
                 </figure>
                 <figure class="proof-item">
-                    <img src="../assets/preuves/mission11_odoo_app_detailed_chatter.png" alt="Module Historique detaille visible dans Odoo 19">
-                    <figcaption>Apercu Odoo : module Historique detaille visible dans Apps.</figcaption>
-                </figure>
-                <figure class="proof-item">
-                    <img src="../assets/preuves/mission11_odoo_app_acompte.png" alt="Module Deduction des acomptes visible dans Odoo 19">
-                    <figcaption>Apercu Odoo : module Deduction des acomptes visible dans Apps.</figcaption>
-                </figure>
-                <figure class="proof-item">
                     <img src="../assets/preuves/mission11_odoo_historique_detaille_redacted.png" alt="Historique detaille dans le chatter Odoo">
                     <figcaption>Apercu Odoo : messages d'historique detaille dans le volet de droite, avec donnees sensibles masquees.</figcaption>
                 </figure>
