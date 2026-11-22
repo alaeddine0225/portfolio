@@ -14,8 +14,38 @@
 
     <main class="cv mission-page">
         <section class="cv-card">
-            <h2>Enonce</h2>
-            <p>Securisation de l&#x27;acces au serveur : modification du port SSH, creation d&#x27;utilisateurs, limitation des connexions et activation du firewall.</p>
+            <h2>Contexte et acteurs</h2>
+            <p>Sur le serveur Ubuntu de l’entreprise AESysteme, j’ai travaillé sur les accès d’administration et le filtrage réseau. Cette intervention concerne l’administrateur du serveur et les utilisateurs des services hébergés.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Expression du besoin</h2>
+            <p>Encadrer l’accès au serveur et limiter les connexions non nécessaires, tout en conservant les accès utiles à son administration et aux services.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Solution retenue et justification</h2>
+            <p>La réalisation comprend la création d’utilisateurs, la configuration de SSH, la limitation des connexions et l’activation du pare-feu. Le filtrage réduit les services exposés. Changer le port SSH peut limiter le bruit des tentatives automatisées, mais ne constitue pas à lui seul une protection : les droits et l’authentification restent essentiels.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Étapes de mise en œuvre</h2>
+            <ol><li>Identification des accès d’administration à configurer.</li><li>Création des comptes utilisateurs nécessaires.</li><li>Modification du port SSH et limitation des connexions.</li><li>Activation et configuration du pare-feu.</li><li>Documentation de la configuration.</li></ol>
+        </section>
+
+        <section class="cv-card">
+            <h2>Tests et résultat obtenu</h2>
+            <p>La configuration réalisée est présentée dans la preuve technique ci-dessous.</p><p><strong>Validation à compléter :</strong> joindre les résultats d’une nouvelle connexion SSH autorisée, du refus d’un accès non autorisé et de l’accès aux services conservés. La documentation disponible ne permet pas d’attester ces contrôles. Pour toute modification future du pare-feu, conserver une session de secours avant de fermer l’accès courant.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Compétences mobilisées</h2>
+            <ul><li>Gérer le patrimoine informatique : identifier les accès et les ressources du serveur.</li><li>Répondre aux incidents et aux demandes d’assistance et d’évolution : prendre en compte une demande de sécurisation.</li><li>Mettre à disposition un service informatique : préparer une configuration d’exploitation et sa validation.</li></ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Bilan personnel</h2>
+            <p>Cette intervention m’a sensibilisé à l’équilibre entre sécurité et disponibilité. Une règle de filtrage incorrecte peut bloquer l’administrateur : les changements doivent être documentés, testés et accompagnés d’une possibilité de retour arrière.</p>
         </section>
 
         <section class="cv-card">

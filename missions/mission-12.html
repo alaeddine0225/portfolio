@@ -49,6 +49,21 @@
         </section>
 
         <section class="cv-card">
+            <h2>Réponse au besoin et justification</h2>
+            <p>Le repérage préalable des ports permet de conserver la correspondance des liaisons pendant le débrassage. Le rebrassage et le regroupement des cordons rendent la baie plus lisible ; l’étiquetage facilite ensuite l’identification des connexions. Les équipements concernés sont les switchs, panneaux RJ45 et bornes Wi-Fi du site client.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Tests et résultat obtenu</h2>
+            <p>Les photos montrent le câblage avant intervention et sa réorganisation. Elles constituent une preuve visuelle du rangement, mais ne prouvent pas à elles seules la connectivité du réseau.</p><p><strong>À compléter avec les contrôles réellement effectués :</strong> état des liens sur les switchs, connectivité d’un poste rebranché et accès Wi-Fi après intervention. Le site exact, la date et la nature précise de l’intervention Wi-Fi restent à renseigner avant la remise.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Compétences mobilisées</h2>
+            <ul><li>Gérer le patrimoine informatique : repérer les équipements, les ports et les liaisons.</li><li>Répondre aux incidents et aux demandes d’assistance et d’évolution : intervenir sur une demande de réorganisation.</li><li>Mettre à disposition un service informatique : préparer la vérification des liaisons après intervention.</li></ul>
+        </section>
+
+        <section class="cv-card">
             <h2>Preuves de l'intervention</h2>
             <div class="mission-proof-images">
                 <figure class="proof-item">

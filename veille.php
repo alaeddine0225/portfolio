@@ -23,6 +23,15 @@
         </section>
 
         <section class="cv-card">
+            <h2>Stratégie de veille</h2>
+            <p>Objectif SISR : suivre les possibilités et les limites de l’automatisation d’un parc Linux et Windows, en privilégiant des informations vérifiables.</p>
+            <ul><li><strong>Sources prioritaires :</strong> documentation officielle Ansible pour les prérequis, la sécurité et les évolutions de support ; forum officiel pour les annonces à recouper avec la documentation.</li>
+            <li><strong>Outils :</strong> navigateur et journal de lecture conservé sur cette page. Aucun agrégateur RSS ni alerte n’est déclaré comme déjà configuré.</li>
+            <li><strong>Fréquence prévue :</strong> une consultation hebdomadaire et une vérification des prérequis avant toute mise à niveau. Cette fréquence est un objectif, pas un historique de consultations attesté.</li>
+            <li><strong>Méthode :</strong> relever la source, sa date de consultation, le changement ou point technique, puis son impact pour mon environnement. Vérifier en laboratoire avant de proposer une utilisation en production.</li></ul>
+        </section>
+
+        <section class="cv-card">
             <h2>Qu'est-ce qu'Ansible ?</h2>
             <p>
                 Ansible est un outil open source d'automatisation informatique. Il permet
@@ -87,19 +96,23 @@ pc-support ansible_host=192.168.1.20
 [windows:vars]
 ansible_connection=winrm
 ansible_user=Administrateur
-ansible_password=mot_de_passe_a_chiffrer
-ansible_winrm_transport=ntlm</code></pre>
+; Secret fourni séparément par une variable chiffrée avec Vault
+ansible_winrm_transport=ntlm
+ansible_port=5986
+ansible_winrm_scheme=https
+ansible_winrm_server_cert_validation=validate</code></pre>
         </section>
 
         <section class="cv-card">
             <h2>Exemple de playbook</h2>
+            <p>Exemple pédagogique non exécuté dans cette veille. Il suppose des hôtes accessibles, les droits adaptés et la collection ansible.windows installée. Il ne constitue pas une preuve de déploiement réalisé.</p>
             <pre class="code-block"><code>---
 - name: Installer Apache sur Linux
   hosts: linux
   become: true
   tasks:
     - name: Installer apache2
-      apt:
+      ansible.builtin.apt:
         name: apache2
         state: present
 
@@ -107,7 +120,7 @@ ansible_winrm_transport=ntlm</code></pre>
   hosts: windows
   tasks:
     - name: Demarrer le service Spooler
-      win_service:
+      ansible.windows.win_service:
         name: Spooler
         state: started</code></pre>
         </section>
@@ -135,17 +148,22 @@ ansible_winrm_transport=ntlm</code></pre>
         </section>
 
         <section class="cv-card">
-            <h2>Actualite de la veille</h2>
-            <p>
-                Au 7 juillet 2026, la communaute Ansible publie regulierement des versions.
-                Ansible 14.1.0 a ete annonce en juin 2026 et depend d'ansible-core 2.21.1.
-                Cela montre que le projet reste actif et maintenu.
-            </p>
-            <p>
-                La documentation officielle met aussi en avant deux possibilites pour Windows :
-                WinRM, qui reste la solution courante, et OpenSSH lorsque l'environnement Windows
-                respecte les conditions de support.
-            </p>
+            <h2>Journal de veille — vérification du 22/11/2026</h2>
+            <p>Les pages suivantes sont des documentations évolutives, sans date de publication unique affichée. La date indiquée est celle de consultation, et non une date de publication. Cette entrée ne prétend pas reconstituer des lectures antérieures.</p>
+            <ul class="source-list">
+                <li><strong>Support Windows SSH :</strong> le support officiel a été ajouté à ansible-core 2.18. La documentation précise les prérequis OpenSSH et recommande PowerShell. Impact : vérifier les versions avant de choisir SSH plutôt que WinRM. <a href="https://docs.ansible.com/projects/ansible/latest/os_guide/windows_ssh.html">Ansible — Windows SSH</a>, consulté le 22/11/2026.</li>
+                <li><strong>WinRM :</strong> nécessite un listener, une authentification adaptée et des dépendances Python côté contrôle. Impact : préparer la connectivité et valider le certificat HTTPS avant l’exécution. <a href="https://docs.ansible.com/projects/ansible/latest/os_guide/windows_winrm.html">Ansible — Windows Remote Management</a>, consulté le 22/11/2026.</li>
+                <li><strong>Validation :</strong> le mode check simule les changements pour les modules compatibles ; le mode diff compare les modifications. Ces modes ne remplacent pas un test fonctionnel et certaines tâches peuvent être forcées à s’exécuter. <a href="https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_checkmode.html">Ansible — Check et diff</a>, consulté le 22/11/2026.</li>
+                <li><strong>Protection des secrets :</strong> Vault chiffre des variables ou fichiers sensibles. Impact : ne pas publier de mots de passe en clair avec les playbooks. <a href="https://docs.ansible.com/projects/ansible/latest/vault_guide/index.html">Ansible — Vault</a>, consulté le 22/11/2026.</li>
+            </ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Synthèse et analyse personnelle</h2>
+            <p>Les acteurs principaux de cette veille sont la communauté Ansible, Red Hat et Microsoft pour les composants Windows. L’évolution du support officiel de SSH sur Windows élargit les choix de connexion ; elle ne supprime pas les contraintes propres à chaque système.</p>
+            <p>Le point essentiel pour mon parcours SISR est la reproductibilité : un playbook peut rejouer une configuration sur plusieurs serveurs, au lieu de répéter chaque action manuellement. Un serveur doit toutefois déjà être accessible, ou être provisionné par un mécanisme prévu dans l’automatisation. Ansible ne remplace pas à lui seul l’installation physique d’une machine.</p>
+            <p>Pour mes missions Ubuntu/Odoo, je pourrais étudier l’automatisation de la préparation du système et des services. Il s’agit d’une piste d’amélioration, pas d’un déploiement Ansible déjà réalisé. Je commencerais par deux machines de test, puis vérifierais une seconde exécution pour repérer les changements inutiles : l’idempotence dépend des modules et de la manière d’écrire les tâches.</p>
+            <p>Les enjeux sont le gain de temps, la cohérence des configurations, les droits d’administration et le risque de propager une erreur à plusieurs hôtes. Mon choix serait de tester sur un petit périmètre, protéger les secrets et garder une procédure de retour arrière.</p>
         </section>
 
         <section class="cv-card">
@@ -156,18 +174,6 @@ ansible_winrm_transport=ntlm</code></pre>
                 WinRM ou SSH plus precise. Pour une entreprise, Ansible permet de standardiser les
                 configurations, gagner du temps et fiabiliser les deploiements.
             </p>
-        </section>
-
-        <section class="cv-card">
-            <h2>Sources consultees</h2>
-            <ul class="source-list">
-                <li><a href="https://docs.ansible.com/projects/ansible/latest/inventory_guide/intro_inventory.html" target="_blank" rel="noopener">Documentation Ansible - Inventaire</a></li>
-                <li><a href="https://docs.ansible.com/projects/ansible/latest/os_guide/windows_winrm.html" target="_blank" rel="noopener">Documentation Ansible - Windows WinRM</a></li>
-                <li><a href="https://docs.ansible.com/projects/ansible/latest/os_guide/windows_ssh.html" target="_blank" rel="noopener">Documentation Ansible - Windows SSH</a></li>
-                <li><a href="https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html" target="_blank" rel="noopener">Documentation Ansible - Releases et maintenance</a></li>
-                <li><a href="https://forum.ansible.com/t/release-announcement-ansible-community-package-14-1-0/45945" target="_blank" rel="noopener">Annonce Ansible 14.1.0 - Juin 2026</a></li>
-                <li><a href="https://forum.ansible.com/t/new-release-ansible-core-v2-21-1/45939" target="_blank" rel="noopener">Annonce ansible-core 2.21.1 - Juin 2026</a></li>
-            </ul>
         </section>
 
         <a class="btn" href="sommaire.php">Retour au sommaire</a>
