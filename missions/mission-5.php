@@ -35,7 +35,7 @@
 
         <section class="cv-card">
             <h2>Tests et résultat obtenu</h2>
-            <p>La réalisation documentée est la mise en place de l’environnement Odoo 17. Les preuves ci-dessous présentent sa documentation et la configuration d’Adminer.</p><p><strong>Validation à compléter :</strong> fournir les résultats réellement constatés pour l’accès HTTPS, l’ouverture d’Odoo, la connexion à la base et la persistance des données après redémarrage. Aucun compte rendu de ces tests n’est actuellement joint ; ils ne sont donc pas présentés comme validés.</p>
+            <p>Après le déploiement, j’ai ouvert le site Odoo en HTTPS et me suis connecté à l’application. L’accès au site et la connexion fonctionnaient.</p><p>Ce contrôle valide l’accès web et l’utilisation de l’application au moment du test. Aucun résultat de test de persistance après redémarrage n’est présenté ici. Les preuves ci-dessous documentent le déploiement ; elles ne constituent pas un compte rendu de ce test.</p>
         </section>
 
         <section class="cv-card">

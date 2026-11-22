@@ -35,7 +35,7 @@
 
         <section class="cv-card">
             <h2>Tests et résultat obtenu</h2>
-            <p>La configuration réalisée est présentée dans la preuve technique ci-dessous.</p><p><strong>Validation à compléter :</strong> joindre les résultats d’une nouvelle connexion SSH autorisée, du refus d’un accès non autorisé et de l’accès aux services conservés. La documentation disponible ne permet pas d’attester ces contrôles. Pour toute modification future du pare-feu, conserver une session de secours avant de fermer l’accès courant.</p>
+            <p>Après la configuration du pare-feu, j’ai vérifié que je pouvais toujours me connecter au serveur en SSH et accéder à Odoo. Ces deux accès fonctionnaient après l’intervention.</p><p>Ce contrôle confirme le maintien des accès nécessaires, mais ne démontre pas le refus des connexions non autorisées : aucun résultat de ce type n’est présenté ici. Pour toute modification future du pare-feu, conserver une session de secours avant de fermer l’accès courant.</p>
         </section>
 
         <section class="cv-card">

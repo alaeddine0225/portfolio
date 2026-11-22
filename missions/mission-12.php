@@ -55,7 +55,7 @@
 
         <section class="cv-card">
             <h2>Tests et résultat obtenu</h2>
-            <p>Les photos montrent le câblage avant intervention et sa réorganisation. Elles constituent une preuve visuelle du rangement, mais ne prouvent pas à elles seules la connectivité du réseau.</p><p><strong>À compléter avec les contrôles réellement effectués :</strong> état des liens sur les switchs, connectivité d’un poste rebranché et accès Wi-Fi après intervention. Le site exact, la date et la nature précise de l’intervention Wi-Fi restent à renseigner avant la remise.</p>
+            <p>Les photos montrent le câblage avant intervention et sa réorganisation. Elles constituent une preuve visuelle du rangement.</p><p>Je n’ai pas effectué de test de connectivité après le rebrassage. Je ne peux donc pas attester personnellement du fonctionnement des postes ou du Wi-Fi à partir de cette intervention. Ces contrôles restent nécessaires pour valider le fonctionnement du réseau.</p><p>Le site exact, la date et la nature précise de l’intervention Wi-Fi restent à renseigner.</p>
         </section>
 
         <section class="cv-card">
