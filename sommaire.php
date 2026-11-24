@@ -23,7 +23,7 @@
         </a>
         <a class="card" href="veille.php">
             <img src="assets/images/ansible.jpg" alt="Veille Ansible">
-            <span>Utilisation d’Ansible avec Linux et Windows</span>
+            <span>Veille</span>
         </a>
         <a class="card" href="cv.php">
             <img src="assets/images/thumb-cv.svg" alt="Mon CV">
