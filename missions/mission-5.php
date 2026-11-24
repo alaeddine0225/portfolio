@@ -17,6 +17,12 @@
 
     <main class="cv mission-page">
         <section class="cv-card">
+            <h2>Organisation du projet et mon rôle</h2>
+            <p>Mon collègue Ando m’a confié la tâche et indiqué le besoin. J’ai ensuite réalisé le travail principalement seul, en autonomie : recherche des informations nécessaires, choix de la démarche et mise en œuvre technique.</p>
+            <p>Son rôle était principalement de me donner la mission ; cela n’excluait pas des échanges ponctuels pour préciser une attente ou débloquer une difficulté, comme ceux consignés dans mon journal de travail.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Contexte et acteurs</h2>
             <p>Dans le cadre de mon alternance chez AESysteme, entreprise de solutions de courant faible et de réseaux informatiques, j’ai d’abord mis en place un environnement Odoo 17 sur un serveur Ubuntu. Mon collègue a ensuite préféré Odoo 19, car cette version était plus récente. J’ai donc également réalisé le déploiement sur Odoo 19. Les acteurs concernés sont l’entreprise, les utilisateurs d’Odoo et moi-même pour la mise en œuvre technique.</p>
         </section>

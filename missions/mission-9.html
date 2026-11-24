@@ -17,6 +17,12 @@
 
     <main class="cv mission-page">
         <section class="cv-card">
+            <h2>Organisation du projet et mon rôle</h2>
+            <p>Mon collègue Ando m’a confié la tâche et indiqué le besoin. J’ai ensuite réalisé le travail principalement seul, en autonomie : recherche des informations nécessaires, choix de la démarche et mise en œuvre technique.</p>
+            <p>Son rôle était principalement de me donner la mission ; cela n’excluait pas des échanges ponctuels pour préciser une attente ou débloquer une difficulté, comme ceux consignés dans mon journal de travail.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Enonce</h2>
             <p>Gestion de PostgreSQL pour Odoo : creation d&#x27;utilisateurs, bases de donnees, verification des connexions, administration avec Adminer et preparation des donnees de migration.</p>
         </section>

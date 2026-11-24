@@ -17,6 +17,12 @@
 
     <main class="cv mission-page">
         <section class="cv-card">
+            <h2>Organisation du projet et mon rôle</h2>
+            <p>Mon collègue Ando m’a confié la tâche et indiqué le besoin. J’ai ensuite réalisé le travail principalement seul, en autonomie : recherche des informations nécessaires, choix de la démarche et mise en œuvre technique.</p>
+            <p>Son rôle était principalement de me donner la mission ; cela n’excluait pas des échanges ponctuels pour préciser une attente ou débloquer une difficulté, comme ceux consignés dans mon journal de travail.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Contexte et besoin</h2>
             <p>Après l’analyse de la base, j’ai travaillé sur le transfert des produits, contacts et utilisateurs. L’objectif était d’automatiser la reprise des données et de conserver leurs relations. J’ai commencé les scripts et workflows pour une migration d’Odoo 12 vers Odoo 17. Mon collègue a ensuite préféré Odoo 19, car cette version était plus récente. J’ai donc adapté les traitements pour reprendre les données d’Odoo 12 vers Odoo 19. Les évolutions ultérieures sont distinguées ci-dessous.</p>
         </section>

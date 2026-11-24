@@ -17,6 +17,12 @@
 
     <main class="cv mission-page">
         <section class="cv-card">
+            <h2>Organisation du projet et mon rôle</h2>
+            <p>Mon collègue Ando m’a confié la tâche et indiqué le besoin. J’ai ensuite réalisé le travail principalement seul, en autonomie : recherche des informations nécessaires, choix de la démarche et mise en œuvre technique.</p>
+            <p>Son rôle était principalement de me donner la mission ; cela n’excluait pas des échanges ponctuels pour préciser une attente ou débloquer une difficulté, comme ceux consignés dans mon journal de travail.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Contexte</h2>
             <p>Lors d'une intervention sur site, j'ai participé à la réorganisation de baies informatiques et au rebrassage des connexions réseau. Le travail concernait les switchs, les panneaux de brassage RJ45 et les bornes Wi-Fi.</p>
         </section>

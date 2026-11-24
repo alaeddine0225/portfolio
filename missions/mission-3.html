@@ -17,6 +17,12 @@
 
     <main class="cv mission-page">
         <section class="cv-card">
+            <h2>Organisation du projet et mon rôle</h2>
+            <p>Mon collègue Ando m’a confié la tâche et indiqué le besoin. J’ai ensuite réalisé le travail principalement seul, en autonomie : recherche des informations nécessaires, choix de la démarche et mise en œuvre technique.</p>
+            <p>Son rôle était principalement de me donner la mission ; cela n’excluait pas des échanges ponctuels pour préciser une attente ou débloquer une difficulté, comme ceux consignés dans mon journal de travail.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Contexte et besoin</h2>
             <p>J’ai commencé par préparer la migration d’Odoo 12 vers Odoo 17. Mon collègue a ensuite préféré utiliser Odoo 19, car cette version était plus récente. J’ai donc poursuivi le travail en adaptant la préparation à une migration d’Odoo 12 vers Odoo 19. L’analyse nécessitait d’abord de comprendre comment les données étaient organisées. Le travail ne consistait pas seulement à exporter des fichiers : il fallait identifier les champs utiles, leurs tables et les relations qui permettraient de conserver des données cohérentes dans la nouvelle version.</p>
         </section>
