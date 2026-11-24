@@ -15,7 +15,7 @@
     <main class="cv mission-page">
         <section class="cv-card">
             <h2>Contexte et besoin</h2>
-            <p>Après l’analyse de la base, j’ai travaillé sur le transfert des produits, contacts et utilisateurs. L’objectif était d’automatiser la reprise des données et de conserver leurs relations. Le travail a commencé pour Odoo 17 puis a été adapté à Odoo 19 ; les évolutions ultérieures sont distinguées ci-dessous.</p>
+            <p>Après l’analyse de la base, j’ai travaillé sur le transfert des produits, contacts et utilisateurs. L’objectif était d’automatiser la reprise des données et de conserver leurs relations. La demande initiale était de migrer Odoo 12 vers Odoo 17. La cible ayant finalement été remplacée par Odoo 19, j’ai adapté les scripts et workflows pour reprendre les données directement d’Odoo 12 vers Odoo 19. Cela ne signifie pas que la base a été migrée successivement en 17 puis en 19. Les évolutions ultérieures sont distinguées ci-dessous.</p>
         </section>
 
         <section class="cv-card">

@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission 1 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</title>
+    <title>Mission 1 : Analyse et préparation de la migration Odoo 12 vers Odoo 19</title>
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
     <header class="hero">
-        <h1>Mission 1 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</h1>
+        <h1>Mission 1 : Analyse et préparation de la migration Odoo 12 vers Odoo 19</h1>
         <p>Du 21/01/2026 au 30/01/2026</p>
     </header>
 
     <main class="cv mission-page">
         <section class="cv-card">
             <h2>Contexte et besoin</h2>
-            <p>La migration d’Odoo 12 vers Odoo 17 nécessitait d’abord de comprendre comment les données étaient organisées. Le travail ne consistait pas seulement à exporter des fichiers : il fallait identifier les champs utiles, leurs tables et les relations qui permettraient de conserver des données cohérentes dans la nouvelle version.</p>
+            <p>Le projet prévoyait initialement une migration d’Odoo 12 vers Odoo 17. La version cible a finalement été remplacée par Odoo 19 : l’objectif est donc devenu une migration d’Odoo 12 vers Odoo 19, et non une migration de la base en deux étapes via Odoo 17. L’analyse nécessitait d’abord de comprendre comment les données étaient organisées. Le travail ne consistait pas seulement à exporter des fichiers : il fallait identifier les champs utiles, leurs tables et les relations qui permettraient de conserver des données cohérentes dans la nouvelle version.</p>
         </section>
 
         <section class="cv-card">

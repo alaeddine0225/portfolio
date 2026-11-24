@@ -44,7 +44,7 @@
         </section>
         <section class="mission-menu">
             <a class="mission-link" href="missions/mission-3.php">
-                <strong>Mission 1 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</strong>
+                <strong>Mission 1 : Analyse et préparation de la migration Odoo 12 vers Odoo 19</strong>
                 <span>Du 21/01/2026 au 30/01/2026</span>
                 <em>Voir l'enonce et les preuves</em>
             </a>
@@ -104,7 +104,7 @@
                         <td><a href="missions/mission-2.php">Voir la réalisation</a></td>
                     </tr>
                     <tr>
-                        <td>Analyse et preparation de la migration Odoo 12 vers Odoo 17</td>
+                        <td>Analyse et préparation de la migration Odoo 12 vers Odoo 19</td>
                         <td>Gerer le patrimoine informatique, traiter les demandes, travailler en mode projet</td>
                         <td><a href="missions/mission-3.php">Voir mission 1</a></td>
                     </tr>
