@@ -39,12 +39,47 @@
         </section>
 
         <section class="cv-card">
-            <h2>Trois réalisations professionnelles — sélection SISR</h2>
-            <p>Cette sélection suit les consignes de remise : contexte, besoin, solution, compétences et preuves. Les éléments non documentés sont signalés dans chaque fiche.</p>
-            <ul><li><a href="missions/mission-5.php">Déploiement d’Odoo 17 sur un serveur Ubuntu</a></li>
-            <li><a href="missions/mission-8.php">Sécurisation et configuration du serveur Ubuntu</a></li>
-            <li><a href="missions/mission-12.php">Réorganisation et rebrassage d’une infrastructure réseau</a></li></ul>
+            <h2>Missions en entreprise — E5</h2>
+            <p>Mes six missions professionnelles, classées selon les dates renseignées. Chaque fiche présente le déroulement et les preuves disponibles.</p>
         </section>
+        <section class="mission-menu">
+            <a class="mission-link" href="missions/mission-3.php">
+                <strong>Mission 1 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</strong>
+                <span>Du 21/01/2026 au 30/01/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-4.php">
+                <strong>Mission 2 : Scripts Python et workflows n8n pour la migration</strong>
+                <span>Du 04/03/2026 au 24/04/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-5.php">
+                <strong>Mission 3 : Deploiement d'Odoo 17 sur un serveur Ubuntu</strong>
+                <span>Du 24/04/2026 au 01/05/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-8.php">
+                <strong>Mission 4 : Securisation et configuration du serveur Ubuntu</strong>
+                <span>Du 24/04/2026 au 01/05/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-9.php">
+                <strong>Mission 5 : Administration de la base PostgreSQL avec Adminer</strong>
+                <span>Du 24/04/2026 au 01/05/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-12.php">
+                <strong>Mission 6 : Réorganisation et rebrassage d'une infrastructure réseau</strong>
+                <span>Intervention sur site — date à préciser</span>
+                <em>Voir la mission et ses preuves</em>
+            </a>
+        </section>
+
 
         <section class="cv-card">
             <h2>Tableau de synthese</h2>
