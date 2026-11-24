@@ -21,7 +21,7 @@
             </a>
 
             <a class="mission-link" href="missions/mission-4.php">
-                <strong>Mission 2 : Scripts Python et workflows n8n pour la migration</strong>
+                <strong>Mission 2 : Scripts Python et workflows n8n pour la migration Odoo 12 vers Odoo 19</strong>
                 <span>Du 04/03/2026 au 24/04/2026</span>
                 <em>Voir l'enonce et les preuves</em>
             </a>

@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission 2 : Scripts Python et workflows n8n pour la migration</title>
+    <title>Mission 2 : Scripts Python et workflows n8n pour la migration Odoo 12 vers Odoo 19</title>
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
     <header class="hero">
-        <h1>Mission 2 : Scripts Python et workflows n8n pour la migration</h1>
+        <h1>Mission 2 : Scripts Python et workflows n8n pour la migration Odoo 12 vers Odoo 19</h1>
         <p>Du 04/03/2026 au 24/04/2026 — prolongements vers Odoo 19 jusqu’en septembre 2026</p>
     </header>
 
     <main class="cv mission-page">
         <section class="cv-card">
             <h2>Contexte et besoin</h2>
-            <p>Après l’analyse de la base, j’ai travaillé sur le transfert des produits, contacts et utilisateurs. L’objectif était d’automatiser la reprise des données et de conserver leurs relations. La demande initiale était de migrer Odoo 12 vers Odoo 17. La cible ayant finalement été remplacée par Odoo 19, j’ai adapté les scripts et workflows pour reprendre les données directement d’Odoo 12 vers Odoo 19. Cela ne signifie pas que la base a été migrée successivement en 17 puis en 19. Les évolutions ultérieures sont distinguées ci-dessous.</p>
+            <p>Après l’analyse de la base, j’ai travaillé sur le transfert des produits, contacts et utilisateurs. L’objectif était d’automatiser la reprise des données et de conserver leurs relations. J’ai commencé les scripts et workflows pour une migration d’Odoo 12 vers Odoo 17. Mon collègue a ensuite préféré Odoo 19, car cette version était plus récente. J’ai donc adapté les traitements pour reprendre les données d’Odoo 12 vers Odoo 19. Les évolutions ultérieures sont distinguées ci-dessous.</p>
         </section>
 
         <section class="cv-card">
