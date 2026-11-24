@@ -51,7 +51,7 @@
             </div>
         </section>
 
-        <a class="btn" href="../e6.php">Retour aux missions</a>
+        <a class="btn" href="../missions.php">Retour aux missions</a>
     </main>
 </body>
 </html>

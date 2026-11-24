@@ -14,6 +14,13 @@
 
     <main class="cv">
         <section class="cv-card">
+            <h2>Parcours et réalisations — E5</h2>
+            <p>Le dossier E5 réunit le portfolio, le tableau officiel de synthèse des compétences et les attestations de stage ou certificats de travail. Il présente les réalisations en formation et en entreprise.</p>
+            <p><a href="missions.php">Consulter les six missions professionnelles détaillées</a> · <a href="veille.php">Consulter ma veille</a></p>
+            <p>Le tableau officiel et les justificatifs restent à joindre ; les projets de formation doivent encore être intégrés. La synthèse web ci-dessous ne remplace pas le fichier officiel.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Presentation de l'entreprise</h2>
             <p>
                 A.E.S, aussi connue sous le nom commercial AESysteme, est une entreprise creee

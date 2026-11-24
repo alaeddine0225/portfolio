@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes missions professionnelles</title>
+    <link rel="stylesheet" href="smr.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Mes missions professionnelles</h1>
+        <p>Six missions clés, classées du plus ancien au plus récent selon les dates renseignées.</p>
+    </header>
+
+    <main class="cv">
+        <section class="mission-menu">
+            <a class="mission-link" href="missions/mission-3.php">
+                <strong>Mission 1 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</strong>
+                <span>Du 21/01/2026 au 30/01/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-4.php">
+                <strong>Mission 2 : Scripts Python et workflows n8n pour la migration</strong>
+                <span>Du 04/03/2026 au 24/04/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-5.php">
+                <strong>Mission 3 : Deploiement d'Odoo 17 sur un serveur Ubuntu</strong>
+                <span>Du 24/04/2026 au 01/05/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-8.php">
+                <strong>Mission 4 : Securisation et configuration du serveur Ubuntu</strong>
+                <span>Du 24/04/2026 au 01/05/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-9.php">
+                <strong>Mission 5 : Administration de la base PostgreSQL avec Adminer</strong>
+                <span>Du 24/04/2026 au 01/05/2026</span>
+                <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-12.php">
+                <strong>Mission 6 : Réorganisation et rebrassage d'une infrastructure réseau</strong>
+                <span>Intervention sur site — date à préciser</span>
+                <em>Voir la mission et ses preuves</em>
+            </a>
+        </section>
+
+        <a class="btn" href="sommaire.php">Retour au sommaire</a>
+    </main>
+</body>
+</html>
