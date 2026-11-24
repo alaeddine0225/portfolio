@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
+    <nav class="back-nav" aria-label="Navigation de retour">
+        <a class="back-link" href="../missions.php" aria-label="Retour aux missions"><span aria-hidden="true">&larr;</span> Retour</a>
+    </nav>
     <header class="hero">
         <h1>Mission 1 : Developpement de modules personnalises Odoo 17</h1>
         <p>Du 08/12/2025 au 16/01/2026</p>

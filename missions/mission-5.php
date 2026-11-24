@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
+    <nav class="back-nav" aria-label="Navigation de retour">
+        <a class="back-link" href="../e5.php" aria-label="Retour aux missions E5"><span aria-hidden="true">&larr;</span> Retour</a>
+    </nav>
     <header class="hero">
         <h1>Mission 3 : Deploiement d&#x27;Odoo 19 sur un serveur Ubuntu</h1>
         <p>Odoo 17 : du 24/04/2026 au 01/05/2026 — Odoo 19 : du 21/05/2026 au 24/05/2026</p>

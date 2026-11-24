@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
+    <nav class="back-nav" aria-label="Navigation de retour">
+        <a class="back-link" href="../missions.php" aria-label="Retour aux missions"><span aria-hidden="true">&larr;</span> Retour</a>
+    </nav>
     <header class="hero">
         <h1>Mission 10 : Migration des documents fabricant avec n8n</h1>
         <p>Le 11/08/2026</p>

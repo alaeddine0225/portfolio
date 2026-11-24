@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
+    <nav class="back-nav" aria-label="Navigation de retour">
+        <a class="back-link" href="../e5.php" aria-label="Retour aux missions E5"><span aria-hidden="true">&larr;</span> Retour</a>
+    </nav>
     <header class="hero">
         <h1>Mission 2 : Scripts Python et workflows n8n pour la migration Odoo 12 vers Odoo 19</h1>
         <p>Du 04/03/2026 au 24/04/2026 — prolongements vers Odoo 19 jusqu’en septembre 2026</p>

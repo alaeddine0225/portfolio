@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
+    <nav class="back-nav" aria-label="Navigation de retour">
+        <a class="back-link" href="../e5.php" aria-label="Retour aux missions E5"><span aria-hidden="true">&larr;</span> Retour</a>
+    </nav>
     <header class="hero">
         <h1>Mission 1 : Analyse et préparation de la migration Odoo 12 vers Odoo 19</h1>
         <p>Du 21/01/2026 au 30/01/2026</p>

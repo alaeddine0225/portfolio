@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
+    <nav class="back-nav" aria-label="Navigation de retour">
+        <a class="back-link" href="../missions.php" aria-label="Retour aux missions"><span aria-hidden="true">&larr;</span> Retour</a>
+    </nav>
     <header class="hero">
         <h1>Mission 7 : Adaptation des scripts pour Odoo 19</h1>
         <p>Du 01/05/2026 au 21/05/2026</p>
