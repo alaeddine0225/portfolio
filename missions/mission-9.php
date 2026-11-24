@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission 9 : Administration de la base PostgreSQL avec Adminer</title>
+    <title>Mission 5 : Administration de la base PostgreSQL avec Adminer</title>
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
     <header class="hero">
-        <h1>Mission 9 : Administration de la base PostgreSQL avec Adminer</h1>
+        <h1>Mission 5 : Administration de la base PostgreSQL avec Adminer</h1>
         <p>Du 24/04/2026 au 01/05/2026</p>
     </header>
 

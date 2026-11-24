@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission 12 : Réorganisation et rebrassage d'une infrastructure réseau</title>
+    <title>Mission 6 : Réorganisation et rebrassage d'une infrastructure réseau</title>
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
     <header class="hero">
-        <h1>Mission 12 : Réorganisation et rebrassage d'une infrastructure réseau</h1>
+        <h1>Mission 6 : Réorganisation et rebrassage d'une infrastructure réseau</h1>
         <p>Intervention sur site — BTS SIO SISR</p>
     </header>
 

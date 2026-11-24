@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission 3 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</title>
+    <title>Mission 1 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</title>
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
     <header class="hero">
-        <h1>Mission 3 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</h1>
+        <h1>Mission 1 : Analyse et preparation de la migration Odoo 12 vers Odoo 17</h1>
         <p>Du 21/01/2026 au 30/01/2026</p>
     </header>
 

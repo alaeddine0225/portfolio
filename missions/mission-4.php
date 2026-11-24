@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission 4 : Scripts Python et workflows n8n pour la migration</title>
+    <title>Mission 2 : Scripts Python et workflows n8n pour la migration</title>
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
     <header class="hero">
-        <h1>Mission 4 : Scripts Python et workflows n8n pour la migration</h1>
+        <h1>Mission 2 : Scripts Python et workflows n8n pour la migration</h1>
         <p>Du 04/03/2026 au 24/04/2026</p>
     </header>
 
