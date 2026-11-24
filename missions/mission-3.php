@@ -23,6 +23,12 @@
         </section>
 
         <section class="cv-card">
+            <h2>Période et durée du projet</h2>
+            <p><strong>Période :</strong> du 21/01/2026 au 30/01/2026, soit <strong>10 jours calendaires</strong> (dates de début et de fin incluses). Ces bornes correspondent aux entrées du journal consacrées à l’analyse des champs et des relations.</p>
+            <p>Les durées calendaires décrivent la période du projet. Elles ne constituent pas un temps de travail effectif : le journal ne fournit pas de relevé d’heures ni la répartition entre présence en entreprise, formation et autres tâches.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Contexte et besoin</h2>
             <p>J’ai commencé par préparer la migration d’Odoo 12 vers Odoo 17. Mon collègue a ensuite préféré utiliser Odoo 19, car cette version était plus récente. J’ai donc poursuivi le travail en adaptant la préparation à une migration d’Odoo 12 vers Odoo 19. L’analyse nécessitait d’abord de comprendre comment les données étaient organisées. Le travail ne consistait pas seulement à exporter des fichiers : il fallait identifier les champs utiles, leurs tables et les relations qui permettraient de conserver des données cohérentes dans la nouvelle version.</p>
         </section>

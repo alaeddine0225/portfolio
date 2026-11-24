@@ -23,6 +23,12 @@
         </section>
 
         <section class="cv-card">
+            <h2>Période et durée du projet</h2>
+            <p><strong>Durée non déterminable :</strong> aucune date de début ou de fin de cette intervention n’a été retrouvée dans les README consultés. Les photographies constituent des preuves visuelles, mais ne permettent pas à elles seules de calculer le temps réellement consacré au rebrassage. Je n’indique donc pas de durée chiffrée.</p>
+            <p>Les durées calendaires décrivent la période du projet. Elles ne constituent pas un temps de travail effectif : le journal ne fournit pas de relevé d’heures ni la répartition entre présence en entreprise, formation et autres tâches.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Contexte</h2>
             <p>Lors d'une intervention sur site, j'ai participé à la réorganisation de baies informatiques et au rebrassage des connexions réseau. Le travail concernait les switchs, les panneaux de brassage RJ45 et les bornes Wi-Fi.</p>
         </section>

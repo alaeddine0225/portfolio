@@ -23,6 +23,12 @@
         </section>
 
         <section class="cv-card">
+            <h2>Période et durée du projet</h2>
+            <p><strong>Période renseignée et confirmée :</strong> du 24/04/2026 au 01/05/2026, soit <strong>8 jours calendaires</strong> (dates incluses). La procédure contient notamment une trace de connexion du 30/04/2026. La sécurisation s’inscrit dans la même fenêtre que la préparation du serveur ; ces durées ne doivent pas être additionnées comme des jours de travail distincts.</p>
+            <p>Les durées calendaires décrivent la période du projet. Elles ne constituent pas un temps de travail effectif : le journal ne fournit pas de relevé d’heures ni la répartition entre présence en entreprise, formation et autres tâches.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Contexte et acteurs</h2>
             <p>Sur le serveur Ubuntu de l’entreprise AESysteme, j’ai travaillé sur les accès d’administration et le filtrage réseau. Cette intervention concerne l’administrateur du serveur et les utilisateurs des services hébergés.</p>
         </section>

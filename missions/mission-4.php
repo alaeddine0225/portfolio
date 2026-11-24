@@ -23,6 +23,12 @@
         </section>
 
         <section class="cv-card">
+            <h2>Période et durée du projet</h2>
+            <p><strong>Phase initiale :</strong> du 04/03/2026 au 24/04/2026, soit <strong>52 jours calendaires</strong> (environ 7 semaines et demie, dates incluses). Le journal décrit ensuite des évolutions ponctuelles, notamment le 15/09/2026 pour les taxes et les écritures comptables ; elles ne correspondent pas à une période de travail continu de mars à septembre.</p>
+            <p>Les durées calendaires décrivent la période du projet. Elles ne constituent pas un temps de travail effectif : le journal ne fournit pas de relevé d’heures ni la répartition entre présence en entreprise, formation et autres tâches.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Contexte et besoin</h2>
             <p>Après l’analyse de la base, j’ai travaillé sur le transfert des produits, contacts et utilisateurs. L’objectif était d’automatiser la reprise des données et de conserver leurs relations. J’ai commencé les scripts et workflows pour une migration d’Odoo 12 vers Odoo 17. Mon collègue a ensuite préféré Odoo 19, car cette version était plus récente. J’ai donc adapté les traitements pour reprendre les données d’Odoo 12 vers Odoo 19. Les évolutions ultérieures sont distinguées ci-dessous.</p>
         </section>

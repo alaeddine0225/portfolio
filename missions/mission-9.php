@@ -23,6 +23,12 @@
         </section>
 
         <section class="cv-card">
+            <h2>Période et durée du projet</h2>
+            <p><strong>Période initiale renseignée et confirmée :</strong> du 24/04/2026 au 01/05/2026, soit <strong>8 jours calendaires</strong>. Cette fenêtre chevauche le déploiement et la sécurisation. Le journal documente un complément sur les droits de sauvegarde le <strong>30/10/2026</strong> : cette entrée atteste une intervention à cette date, pas une journée entière de travail.</p>
+            <p>Les durées calendaires décrivent la période du projet. Elles ne constituent pas un temps de travail effectif : le journal ne fournit pas de relevé d’heures ni la répartition entre présence en entreprise, formation et autres tâches.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Enonce</h2>
             <p>Gestion de PostgreSQL pour Odoo : creation d&#x27;utilisateurs, bases de donnees, verification des connexions, administration avec Adminer et preparation des donnees de migration.</p>
         </section>
