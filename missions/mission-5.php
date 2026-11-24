@@ -49,6 +49,21 @@
         </section>
 
         <section class="cv-card">
+            <h2>Déroulement technique détaillé</h2>
+            <p>La procédure de travail commence par la préparation d’Ubuntu et l’installation d’Apache. Elle prévoit l’ouverture des accès web dans le pare-feu, puis la configuration du certificat avec Certbot. Le navigateur sert ensuite à vérifier le point d’entrée web.</p>
+            <p>PostgreSQL et son client sont installés séparément du conteneur Odoo. La procédure prévoit le démarrage du service et son activation au démarrage du système, puis la préparation du rôle applicatif utilisé par Odoo.</p>
+            <p>Le déploiement utilise Docker Compose avec l’image Odoo 17. Les répertoires de configuration et de modules personnalisés sont montés dans le conteneur ; les données Odoo disposent d’un volume persistant. Cette organisation sépare les fichiers de l’application et les données à conserver.</p>
+            <p>La configuration Odoo précise les chemins des modules et des données ainsi que les paramètres de connexion PostgreSQL. Les échanges entre le réseau Docker et la base hébergée sur le serveur nécessitent des règles réseau adaptées. Les secrets ne sont pas reproduits dans le portfolio.</p>
+            <p>Apache reçoit les requêtes destinées au nom de domaine et les transmet à Odoo par un virtual host utilisant <code>ProxyPass</code> et <code>ProxyPassReverse</code>. La procédure prévoit l’activation du site puis le certificat HTTPS.</p>
+            <p>Enfin, la documentation couvre le lancement avec Compose, l’identification du conteneur actif et sa gestion. Mon contrôle confirmé porte sur l’ouverture du site en HTTPS et la connexion à Odoo ; je ne présente pas le redémarrage ou le renouvellement du certificat comme des tests personnellement confirmés.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Recul sur la procédure</h2>
+            <p>Les documents d’installation contiennent des exemples hérités et quelques incohérences de noms de comptes ou de commandes. Ils servent à expliquer l’architecture et le déroulement, pas à publier une procédure prête à exécuter sans relecture. Les droits des fichiers, les privilèges PostgreSQL et les ports exposés doivent être revus selon le principe du moindre privilège.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Preuves</h2>
             <div class="mission-proof-images">
                 <img src="../assets/preuves/mission5_deploiement_odoo17_doc.png" alt="Documentation de deploiement Odoo 17">

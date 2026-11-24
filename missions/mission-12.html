@@ -64,6 +64,15 @@
         </section>
 
         <section class="cv-card">
+            <h2>Déroulement de l’intervention</h2>
+            <p>J’ai commencé par repérer les switchs, leurs ports et les liaisons RJ45 concernées. Ce repérage permet de savoir quelle connexion est déplacée et d’éviter de rebrancher au hasard pendant le réaménagement.</p>
+            <p>Le travail a ensuite consisté à débrasser et rebrasser les cordons en suivant les correspondances repérées. J’ai participé à la réorganisation des baies et au regroupement des câbles pour rendre leur cheminement plus lisible.</p>
+            <p>L’étiquetage fait partie de l’intervention : il permet de retrouver les liaisons lors d’une opération ultérieure. Les photos avant et après montrent la différence d’organisation, mais ne constituent pas un relevé de tests électriques ou réseau.</p>
+            <p>L’intervention concernait aussi les bornes Wi-Fi. La nature précise de cette partie reste à documenter : je ne prétends pas avoir configuré des SSID, VLAN, contrôleurs ou paramètres radio sans information correspondante.</p>
+            <p>Je n’ai pas réalisé les contrôles de connectivité après le rebrassage. Le résultat que je peux présenter est donc la réorganisation physique et son repérage, sans affirmer que j’ai validé le fonctionnement de chaque poste ou du Wi-Fi.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Preuves de l'intervention</h2>
             <div class="mission-proof-images">
                 <figure class="proof-item">

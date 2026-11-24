@@ -49,6 +49,20 @@
         </section>
 
         <section class="cv-card">
+            <h2>Déroulement technique détaillé</h2>
+            <p>La procédure commence par une connexion SSH au serveur. Le changement de port est décrit au niveau de <code>ssh.socket</code> avec une surcharge systemd : remise à zéro des anciennes écoutes, puis définition de nouvelles écoutes IPv4 et IPv6.</p>
+            <p>Après modification, la procédure prévoit le rechargement de systemd et le redémarrage du socket. Elle contient un relevé des ports en écoute obtenu avec <code>ss</code>, ainsi que des essais depuis un second terminal.</p>
+            <p>Le travail porte ensuite sur les comptes d’administration et leurs droits. La configuration SSH documentée encadre les utilisateurs autorisés et interdit la connexion directe de root. Les noms de comptes, mots de passe et coordonnées du serveur ne sont pas recopiés ici.</p>
+            <p>L’étape pare-feu consiste à autoriser l’accès SSH nécessaire avant d’activer UFW, puis à consulter son état. Les accès web sont ajoutés dans la procédure de préparation de la stack. J’ai confirmé que SSH et Odoo restaient accessibles après la configuration.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Analyse critique et limites</h2>
+            <p>Changer un port n’est pas une authentification renforcée et ne suffit pas à sécuriser un serveur. La capture documentaire UFW conserve également des règles concernant le port standard : je ne présente donc pas l’ensemble du filtrage comme un audit de sécurité validé.</p>
+            <p>Le document historique contient un refus de connexion sur l’ancien port et une connexion sur le nouveau, mais certaines lignes sont contradictoires. Je distingue ces traces de mon contrôle confirmé du maintien de l’accès SSH et d’Odoo. Les versions du système et les règles doivent être revérifiées avant toute réutilisation de cette procédure.</p>
+        </section>
+
+        <section class="cv-card">
             <h2>Preuves</h2>
             <div class="mission-proof-images">
                 <img src="../assets/preuves/mission8_securisation_serveur.png" alt="Documentation de securisation du serveur">
