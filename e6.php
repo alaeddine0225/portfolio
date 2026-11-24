@@ -9,21 +9,27 @@
 <body>
     <header class="hero">
         <h1>E6</h1>
-        <p>Missions realisees pendant mon parcours professionnel.</p>
+        <p>Six missions clés : infrastructure, sécurité, réseau et migration.</p>
     </header>
 
     <main class="cv">
         <section class="mission-menu">
-            <a class="mission-link" href="missions/mission-1.php">
-                <strong>Mission 1 : Developpement de modules personnalises Odoo 17</strong>
-                <span>Du 08/12/2025 au 16/01/2026</span>
+            <a class="mission-link" href="missions/mission-5.php">
+                <strong>Mission 5 : Deploiement d'Odoo 17 sur un serveur Ubuntu</strong>
+                <span>Du 24/04/2026 au 01/05/2026</span>
                 <em>Voir l'enonce et les preuves</em>
             </a>
 
-            <a class="mission-link" href="missions/mission-2.php">
-                <strong>Mission 2 : Installation et configuration d'un environnement Odoo 17 local</strong>
-                <span>Du 01/12/2025 au 08/12/2025</span>
+            <a class="mission-link" href="missions/mission-8.php">
+                <strong>Mission 8 : Securisation et configuration du serveur Ubuntu</strong>
+                <span>Du 24/04/2026 au 01/05/2026</span>
                 <em>Voir l'enonce et les preuves</em>
+            </a>
+
+            <a class="mission-link" href="missions/mission-12.php">
+                <strong>Mission 12 : Réorganisation et rebrassage d'une infrastructure réseau</strong>
+                <span>Intervention sur site</span>
+                <em>Voir la mission et ses preuves</em>
             </a>
 
             <a class="mission-link" href="missions/mission-3.php">
@@ -38,51 +44,10 @@
                 <em>Voir l'enonce et les preuves</em>
             </a>
 
-            <a class="mission-link" href="missions/mission-5.php">
-                <strong>Mission 5 : Deploiement d'Odoo 17 sur un serveur Ubuntu</strong>
-                <span>Du 24/04/2026 au 01/05/2026</span>
-                <em>Voir l'enonce et les preuves</em>
-            </a>
-
-            <a class="mission-link" href="missions/mission-6.php">
-                <strong>Mission 6 : Deploiement d'Odoo 19 sur un serveur Ubuntu</strong>
-                <span>Du 21/05/2026 au 24/05/2026</span>
-                <em>Voir l'enonce et les preuves</em>
-            </a>
-
-            <a class="mission-link" href="missions/mission-7.php">
-                <strong>Mission 7 : Adaptation des scripts pour Odoo 19</strong>
-                <span>Du 01/05/2026 au 21/05/2026</span>
-                <em>Voir l'enonce et les preuves</em>
-            </a>
-
-            <a class="mission-link" href="missions/mission-8.php">
-                <strong>Mission 8 : Securisation et configuration du serveur Ubuntu</strong>
-                <span>Du 24/04/2026 au 01/05/2026</span>
-                <em>Voir l'enonce et les preuves</em>
-            </a>
-
             <a class="mission-link" href="missions/mission-9.php">
                 <strong>Mission 9 : Administration de la base PostgreSQL avec Adminer</strong>
                 <span>Du 24/04/2026 au 01/05/2026</span>
                 <em>Voir l'enonce et les preuves</em>
-            </a>
-
-            <a class="mission-link" href="missions/mission-10.php">
-                <strong>Mission 10 : Migration des documents fabricant avec n8n</strong>
-                <span>Le 11/08/2026</span>
-                <em>Voir l'enonce et les preuves</em>
-            </a>
-
-            <a class="mission-link" href="missions/mission-11.php">
-                <strong>Mission 11 : Modules Odoo 19 Detailed Chatter et deduction des acomptes</strong>
-                <span>Le 13/08/2026</span>
-                <em>Voir l'enonce et les preuves</em>
-            </a>
-            <a class="mission-link" href="missions/mission-12.php">
-                <strong>Mission 12 : Réorganisation et rebrassage d'une infrastructure réseau</strong>
-                <span>Intervention sur site</span>
-                <em>Voir la mission et ses preuves</em>
             </a>
         </section>
 
