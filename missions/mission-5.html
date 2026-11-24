@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission 3 : Deploiement d&#x27;Odoo 17 sur un serveur Ubuntu</title>
+    <title>Mission 3 : Deploiement d&#x27;Odoo 19 sur un serveur Ubuntu</title>
     <link rel="stylesheet" href="../smr.css">
 </head>
 <body>
     <header class="hero">
-        <h1>Mission 3 : Deploiement d&#x27;Odoo 17 sur un serveur Ubuntu</h1>
-        <p>Du 24/04/2026 au 01/05/2026</p>
+        <h1>Mission 3 : Deploiement d&#x27;Odoo 19 sur un serveur Ubuntu</h1>
+        <p>Odoo 17 : du 24/04/2026 au 01/05/2026 — Odoo 19 : du 21/05/2026 au 24/05/2026</p>
     </header>
 
     <main class="cv mission-page">
         <section class="cv-card">
             <h2>Contexte et acteurs</h2>
-            <p>Dans le cadre de mon alternance chez AESysteme, entreprise de solutions de courant faible et de réseaux informatiques, j’ai mis en place un environnement Odoo 17 sur un serveur Ubuntu. Les acteurs concernés sont l’entreprise, les utilisateurs d’Odoo et moi-même pour la mise en œuvre technique.</p>
+            <p>Dans le cadre de mon alternance chez AESysteme, entreprise de solutions de courant faible et de réseaux informatiques, j’ai d’abord mis en place un environnement Odoo 17 sur un serveur Ubuntu. Mon collègue a ensuite préféré Odoo 19, car cette version était plus récente. J’ai donc également réalisé le déploiement sur Odoo 19. Les acteurs concernés sont l’entreprise, les utilisateurs d’Odoo et moi-même pour la mise en œuvre technique.</p>
         </section>
 
         <section class="cv-card">
@@ -52,7 +52,7 @@
             <h2>Déroulement technique détaillé</h2>
             <p>La procédure de travail commence par la préparation d’Ubuntu et l’installation d’Apache. Elle prévoit l’ouverture des accès web dans le pare-feu, puis la configuration du certificat avec Certbot. Le navigateur sert ensuite à vérifier le point d’entrée web.</p>
             <p>PostgreSQL et son client sont installés séparément du conteneur Odoo. La procédure prévoit le démarrage du service et son activation au démarrage du système, puis la préparation du rôle applicatif utilisé par Odoo.</p>
-            <p>Le déploiement utilise Docker Compose avec l’image Odoo 17. Les répertoires de configuration et de modules personnalisés sont montés dans le conteneur ; les données Odoo disposent d’un volume persistant. Cette organisation sépare les fichiers de l’application et les données à conserver.</p>
+            <p>Le déploiement utilise Docker Compose : d’abord avec l’image Odoo 17, puis avec l’image Odoo 19 pour le nouvel environnement. Les répertoires de configuration et de modules personnalisés sont montés dans le conteneur ; les données Odoo disposent d’un volume persistant. Cette organisation sépare les fichiers de l’application et les données à conserver.</p>
             <p>La configuration Odoo précise les chemins des modules et des données ainsi que les paramètres de connexion PostgreSQL. Les échanges entre le réseau Docker et la base hébergée sur le serveur nécessitent des règles réseau adaptées. Les secrets ne sont pas reproduits dans le portfolio.</p>
             <p>Apache reçoit les requêtes destinées au nom de domaine et les transmet à Odoo par un virtual host utilisant <code>ProxyPass</code> et <code>ProxyPassReverse</code>. La procédure prévoit l’activation du site puis le certificat HTTPS.</p>
             <p>Enfin, la documentation couvre le lancement avec Compose, l’identification du conteneur actif et sa gestion. Mon contrôle confirmé porte sur l’ouverture du site en HTTPS et la connexion à Odoo ; je ne présente pas le redémarrage ou le renouvellement du certificat comme des tests personnellement confirmés.</p>
@@ -65,9 +65,13 @@
 
         <section class="cv-card">
             <h2>Preuves</h2>
+            <p>La documentation Odoo 17 correspond au premier déploiement. Les configurations et vues Odoo 19 ci-dessous présentent le nouvel environnement.</p>
             <div class="mission-proof-images">
-                <img src="../assets/preuves/mission5_deploiement_odoo17_doc.png" alt="Documentation de deploiement Odoo 17">
+                <img src="../assets/preuves/mission5_deploiement_odoo17_doc.png" alt="Documentation du premier déploiement sur Odoo 17">
                 <img src="../assets/preuves/mission9_adminer_postgresql.png" alt="Configuration Adminer">
+                <img src="../assets/preuves/mission6_docker_compose_redacted.png" alt="Configuration Docker Compose du déploiement Odoo 19, secrets masqués">
+                <img src="../assets/preuves/mission6_odoo_conf_redacted.png" alt="Configuration Odoo 19, secrets masqués">
+                <img src="../assets/preuves/mission6_odoo19_en_ligne_discuss_desktop.png" alt="Interface du serveur Odoo 19 en ligne">
             </div>
         </section>
 

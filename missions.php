@@ -27,8 +27,8 @@
             </a>
 
             <a class="mission-link" href="missions/mission-5.php">
-                <strong>Mission 3 : Deploiement d'Odoo 17 sur un serveur Ubuntu</strong>
-                <span>Du 24/04/2026 au 01/05/2026</span>
+                <strong>Mission 3 : Déploiement d’Odoo 19 sur un serveur Ubuntu</strong>
+                <span>Odoo 17 : avril–mai 2026 ; Odoo 19 : mai 2026</span>
                 <em>Voir l'enonce et les preuves</em>
             </a>
 
