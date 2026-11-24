@@ -24,7 +24,7 @@
 
         <section class="cv-card">
             <h2>Durée</h2>
-            <p>Non renseignée.</p>
+            <p>Environ 10 heures, de 13 h à 23 h, sur une journée.</p>
         </section>
 
         <section class="cv-card">
