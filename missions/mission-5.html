@@ -23,9 +23,8 @@
         </section>
 
         <section class="cv-card">
-            <h2>Période et durée du projet</h2>
-            <p><strong>Premier déploiement sur Odoo 17 :</strong> du 24/04/2026 au 01/05/2026, soit <strong>8 jours calendaires</strong>. <strong>Déploiement sur Odoo 19 :</strong> du 21/05/2026 au 24/05/2026, soit <strong>4 jours calendaires</strong>. Les deux fenêtres représentent 12 jours calendaires au total, sans compter la période entre les deux. Il s’agit des dates déjà confirmées dans les fiches, et non d’un relevé d’heures.</p>
-            <p>Les durées calendaires décrivent la période du projet. Elles ne constituent pas un temps de travail effectif : le journal ne fournit pas de relevé d’heures ni la répartition entre présence en entreprise, formation et autres tâches.</p>
+            <h2>Durée</h2>
+            <p>8 jours pour Odoo 17, puis 4 jours pour Odoo 19 calendaires.</p>
         </section>
 
         <section class="cv-card">

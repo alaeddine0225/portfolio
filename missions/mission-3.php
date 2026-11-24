@@ -23,9 +23,8 @@
         </section>
 
         <section class="cv-card">
-            <h2>Période et durée du projet</h2>
-            <p><strong>Période :</strong> du 21/01/2026 au 30/01/2026, soit <strong>10 jours calendaires</strong> (dates de début et de fin incluses). Ces bornes correspondent aux entrées du journal consacrées à l’analyse des champs et des relations.</p>
-            <p>Les durées calendaires décrivent la période du projet. Elles ne constituent pas un temps de travail effectif : le journal ne fournit pas de relevé d’heures ni la répartition entre présence en entreprise, formation et autres tâches.</p>
+            <h2>Durée</h2>
+            <p>10 jours calendaires.</p>
         </section>
 
         <section class="cv-card">
