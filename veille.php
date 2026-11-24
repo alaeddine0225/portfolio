@@ -22,7 +22,7 @@
                 Ma veille porte sur l'utilisation d'Ansible pour automatiser l'administration
                 de machines Linux et Windows dans un parc informatique.
             </p>
-            <p class="mission-meta">Problématique : comment administrer plusieurs systèmes avec un seul outil d'automatisation ?</p>
+            <p class="mission-meta">Problématique : comment l’évolution d’Ansible pourrait-elle transformer l’administration des systèmes Linux et Windows et quels seront ses impacts sur la sécurité, l’organisation et les métiers en entreprise ?</p>
         </section>
 
         <section class="cv-card">
@@ -30,8 +30,27 @@
             <p>Objectif SISR : suivre les possibilités et les limites de l’automatisation d’un parc Linux et Windows, en privilégiant des informations vérifiables.</p>
             <ul><li><strong>Sources prioritaires :</strong> documentation officielle Ansible pour les prérequis, la sécurité et les évolutions de support ; forum officiel pour les annonces à recouper avec la documentation.</li>
             <li><strong>Outils :</strong> navigateur et journal de lecture conservé sur cette page. Aucun agrégateur RSS ni alerte n’est déclaré comme déjà configuré.</li>
-            <li><strong>Fréquence prévue :</strong> une consultation hebdomadaire et une vérification des prérequis avant toute mise à niveau. Cette fréquence est un objectif, pas un historique de consultations attesté.</li>
+            <li><strong>Fréquence prévue :</strong> une recherche quotidienne sur les nouveautés, complétée par une synthèse régulière de leur impact en entreprise. Les recherches sont datées et seules les évolutions pertinentes sont ajoutées au journal ; une journée sans nouveauté ne justifie pas une entrée artificielle.</li>
             <li><strong>Méthode :</strong> relever la source, sa date de consultation, le changement ou point technique, puis son impact pour mon environnement. Vérifier en laboratoire avant de proposer une utilisation en production.</li></ul>
+        </section>
+
+        <section class="cv-card">
+            <h2>Perspectives et impacts en entreprise</h2>
+            <p>La veille ne se limite pas à apprendre à utiliser Ansible : elle suit son évolution vers une automatisation davantage intégrée aux événements, aux outils de supervision et aux assistants d’intelligence artificielle. Ces perspectives doivent être distinguées des capacités déjà disponibles et des fonctions encore en préversion.</p>
+            <ul><li><strong>Organisation :</strong> des tâches standardisées et des portails en libre-service pourraient réduire certaines interventions manuelles. L’équipe doit définir les opérations autorisées et leurs validations.</li>
+            <li><strong>Métier SISR :</strong> l’administrateur pourrait consacrer davantage de temps à concevoir, tester et contrôler les automatisations plutôt qu’à répéter des installations.</li>
+            <li><strong>Sécurité :</strong> multiplier les actions automatiques augmente l’importance des habilitations, des secrets temporaires et de la traçabilité. Une erreur peut aussi se propager plus vite.</li>
+            <li><strong>Coûts :</strong> les gains possibles doivent être comparés au temps de formation, de maintenance des playbooks et au coût des outils. Aucun gain chiffré n’est affirmé sans mesure.</li></ul>
+            <p>Il s’agit de mon analyse prospective, pas de résultats mesurés chez AESysteme. Les fonctions de la plateforme commerciale Red Hat Ansible Automation Platform ne sont pas automatiquement incluses dans ansible-core.</p>
+        </section>
+
+        <section class="cv-card">
+            <h2>Recherche du 24/11/2026 — IA et automatisation gouvernée</h2>
+            <p><strong>Évolution constatée :</strong> Red Hat a annoncé le 12/05/2026 une orientation combinant automatisation classique, événementielle et pilotée par IA, avec contrôle humain. Cette annonce exprime la stratégie de l’éditeur ; elle ne prouve pas une adoption généralisée en entreprise.</p>
+            <p>Dans son article du 10/06/2026, mis à jour le 16/06/2026, Red Hat présente la disponibilité d’Ansible Automation Platform 2.7, des environnements de développement standardisés et des intégrations MCP et OIDC/Vault présentées comme Technology Preview à cette date. Leur statut actuel doit être revérifié avant déploiement.</p>
+            <p><strong>Mon analyse :</strong> ces évolutions suggèrent qu’Ansible pourrait devenir une couche d’exécution contrôlée pour des actions proposées par des outils d’IA. En entreprise, la priorité resterait de tester les playbooks, limiter les droits et faire approuver les actions sensibles ; une proposition d’IA ne constitue pas une autorisation d’exécuter.</p>
+            <ul class="source-list"><li><a href="https://www.redhat.com/en/about/press-releases/red-hat-establishes-ansible-automation-platform-trusted-execution-layer-it-operations-agentic-era">Red Hat — orientation vers les opérations IT pilotées par agents</a> : publié le 12/05/2026, consulté le 24/11/2026.</li>
+            <li><a href="https://developers.redhat.com/articles/2026/06/10/whats-new-red-hat-ansible-automation-platform-2-7">Red Hat Developer — nouveautés de la plateforme 2.7</a> : publié le 10/06/2026, mis à jour le 16/06/2026, consulté le 24/11/2026.</li></ul>
         </section>
 
         <section class="cv-card">
